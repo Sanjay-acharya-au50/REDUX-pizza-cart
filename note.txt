@@ -1,0 +1,29 @@
+install react icon after the navbar 
+-> npm install react-icon --save
+
+            {/*  md:hidden for large screen it will be hidden, for mobile screen it will b vissible block*/}
+                {/* hidden for small device, md-> mideum device it will show */}
+ {/* hidden for small device, md-> mideum device it will show  
+                w-full -> full width
+                h-screen-> full height
+                -100% innitially not shows after clicking button it will shwow
+                */}
+
+                typing text in banner page
+                -> npm install react-typed --force
+
+
+
+
+for deploying the website ->
+
+
+name : sanjay-frontend-project
+
+Branch : main
+
+roote directory : (blank)
+
+build command : npm install: npm run build
+
+publish directory : build
