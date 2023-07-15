@@ -8,7 +8,7 @@ import { BsBoxArrowInRight } from 'react-icons/bs';
 
 const Cart = () => {
     const dispatch = useDispatch()
-    const {cart, totalQuantity, totalPrice } = useSelector(state => state.allCart);
+    const {cart, totalPrice } = useSelector(state => state.allCart);
     // console.log("cartJSX",totalQuantity)
     console.log("cart",cart.length)
 
@@ -18,7 +18,9 @@ const Cart = () => {
 
   return (
     <>
-    <div className='bg-[#1e272e] h-[100vh] py-2 md:p-5 md:flex'>
+
+
+    <div className='bg-[#1e272e]  py-10  md:flex'>
       <div className='md:w-[70%]'>
 
     {cart.length > 0 ? cart.map((e,i)=>(
@@ -48,7 +50,7 @@ const Cart = () => {
         </div>
         </div>
     )) : (
-      <div className='text-white w-full h-full text-center'>OOpss..! Your cart is Empty! </div>
+      <div className='text-white w-full p-10  text-center ]'>OOpss..! Your cart is Empty! </div>
     )}
     </div>
     <div className='h-[600px] sticky top-[100px] p-5 m-3 flex justify-center items-center flex-col md:w-[30%] bg-black  text-white rounded-lg'>
@@ -74,6 +76,7 @@ const Cart = () => {
 
 
     </div>
+
     </div>
 
     </>
