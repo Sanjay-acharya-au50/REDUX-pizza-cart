@@ -12,9 +12,9 @@ const Cart = () => {
     // console.log("cartJSX",totalQuantity)
     console.log("cart",cart.length)
 
-  useEffect(()=>{
+
     dispatch(getCartTotal())
-  },[cart])
+
 
   return (
     <>
